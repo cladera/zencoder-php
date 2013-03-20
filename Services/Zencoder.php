@@ -32,15 +32,7 @@ spl_autoload_register('Services_Zencoder_autoload');
 
 class Services_Zencoder extends Services_Zencoder_Base
 {
-    const USER_AGENT = 'ZencoderPHP v2.1.1';
-    
-    /**
-     * Zencoder Regions development help
-     */
-    const EUROPE_REGION = 'europe';
-    const US_REGION = 'us';
-    const ASIA_REGION = 'asia';
-    
+    const USER_AGENT = 'ZencoderPHP v2.1.1';    
 
     /**
     * Contains the HTTP communication class
